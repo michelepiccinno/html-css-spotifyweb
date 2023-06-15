@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* SOLO TEMPORANEAMENTE perché non c'è contenuto.
+poi sarà da togliere */
+body>*,
+.main-container>* {
+  min-width: 100px;
+  min-height: 100px;
+  border: 1px solid red;
+}
+
+.body {
+  height: 100vh;  
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-grow: 1;
+  overflow: auto;
+  border: 1px dashed red;
+}
+
+.navbar {
+  width: 200px;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  flex-shrink: 0;
+  border: 1px dashed green;
+}
+
+.main-content-container {
+  height: calc(100vh - 100px);
+  flex-grow: 1;
+  overflow: auto;
+  border: 1px dashed blue;
+}
+
+.play-nav-container {
+  height: 100px;
+  flex-shrink: 0;
+  border: 1px dashed orange;
+}
+
+.top-bar {
+  height: 100px;
+  position: fixed;
+  border: 1px dashed violet;
+  background-color: rgba(255, 0, 0, 0.13);
+}
