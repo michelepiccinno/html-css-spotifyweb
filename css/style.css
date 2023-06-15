@@ -14,7 +14,7 @@ body>*,
 }
 
 .body {
-  height: 100vh;  
+  height: 100vh;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -32,6 +32,8 @@ body>*,
   height: calc(100vh - 100px);
   overflow: auto;
   flex-shrink: 0;
+  color: grey;
+  background-color: #000000;
   border: 1px dashed green;
 }
 
@@ -40,6 +42,24 @@ body>*,
   flex-grow: 1;
   overflow: auto;
   border: 1px dashed blue;
+}
+
+.main-content-menu {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content-menu ul {
+  width: 700px;
+  list-style: none;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover-list {
+  display: flex;
 }
 
 .play-nav-container {
