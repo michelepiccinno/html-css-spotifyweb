@@ -67,12 +67,11 @@ body>*,
 }
 
 .container-covers ul {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.cover-list {
-  display: flex;
-}
+
 
 .container-covers ul li{
   flex-grow: 1;
