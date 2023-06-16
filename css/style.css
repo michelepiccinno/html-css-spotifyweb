@@ -61,6 +61,7 @@ body>*,
 .main-content-menu ul {
   width: 700px;
   list-style: none;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -97,7 +98,8 @@ body>*,
 }
 
 img {
-  width: 100px;
+  min-width: 100px;
+  max-width: 200px;
 }
 
 .container-play {
