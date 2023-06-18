@@ -168,7 +168,7 @@ a {
 
 .text-cover h2 {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 .row-covers h3 {
@@ -180,7 +180,7 @@ a {
 .text-cover h3 {
   font-size: 15px;
   color: grey;
-  line-height: 20px;
+  line-height: 0;
 }
 
 .row-covers ul {
@@ -275,6 +275,7 @@ footer {
 @media screen and (max-width: 1100px) {
   .row-covers ul li {
     flex-basis: calc(100% / 4 - 10px);
+    margin-bottom: 40px;
   }
   .time-line {
     max-width: 150px;
@@ -321,5 +322,9 @@ footer {
   .fa-circle-arrow-down {
     position: relative;
     left: 5px;
+  }
+
+  .playlist-sx-bottom hr {
+    width: 25px;;
   }
 }
