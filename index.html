@@ -16,29 +16,36 @@
   <div class="main-container">
     <!-- NAVBAR -->
     <nav class="navbar">
-      <div>
-        <img src="img/logo.svg" alt="image logo spotify">
-        <ul>
-          <li>Home</li>
-          <li>Cerca</li>
-          <li>La tua libreria</li>
-          <p>PLAYLIST</p>
-          <p>Crea Playlist</p>
-          <ul>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
-            <li>Nome Playlist</li>
+      <img class="big-logo margin-left-5px" src="img/logo.svg" alt="image logo spotify">
+      <div class="total menu-sx-under-big-logo">
+        <div class="margin-left-5px">
+          <ul class="navbar-menu">
+            <li><img class="mini-logo" src="img/logo-small.svg" alt="mini-logo"></li>
+            <li><img src="img/home.svg" alt="image home icon"><span>Home</span></li>
+            <li><img src="img/search.svg" alt="image search icon"><span>Cerca</span></li>
+            <li><img src="img/libreria.svg" alt="image bookcase icon"><span>La tua libreria</span></li>
           </ul>
-        </ul>
+          <div class="container-playlist">
+            <span>PLAYLIST</span>
+            <p><i class="fa-solid fa-square-plus"></i><span> Crea Playlist</span></p>
+            <ul class="playlist">
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div>
-        <p>Installa app</p>
+      <div class="playlist-sx-bottom">
+        <i class="fa-solid fa-circle-arrow-down"></i><span> Installa app</span>
         <hr>
-        <h4>John Doe</h4>
+        <img src="img/profile.svg" alt="">
+        <h4>&nbsp;John Doe</h4>
       </div>
     </nav>
 
@@ -46,85 +53,104 @@
     <main class="main-content-container">
       <div class="top-bar">
         <div>
-          <a href="#">EFFETTUA L'UPGRADE</a>
+          <a class="btn" href="#">EFFETTUA L'UPGRADE</a>
         </div>
       </div>
       <div class="main-content-menu">
         <ul>
-          <li>IN EVIDENZA</li>
-          <li>PODCAST</li>
-          <li>CLASSIFICHE</li>
-          <li>GENERI E MOOD</li>
-          <li>NUOVE USCITE</li>
-          <li>SCOPRI</li>
+          <li><a href="#">IN EVIDENZA</a></li>
+          <li><a href="#">PODCAST</a></li>
+          <li><a href="#">CLASSIFICHE</a></li>
+          <li><a href="#">GENERI E MOOD</a></li>
+          <li><a href="#">NUOVE USCITE</a></li>
+          <li><a href="#">SCOPRI</a></li>
         </ul>
       </div>
 
       <!-- COVERS  ROW 1-->
-      <section class="container-covers">
+      <section class="row-covers">
         <h1>Recently Played</h1>
-        <ul class="cover-list">
+        <ul>
           <li>
             <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
           </li>
           <li>
             <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
+          </li><li>
+            <img src="img/cure.jpeg" alt="cover-image">
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
           </li>
           <li>
             <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
           </li>
           <li>
             <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
           </li>
           <li>
             <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
-          </li>
-          <li>
-            <img src="img/cure.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
-            <h3>Subtitle</h3>
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+              <h3>Subtitle</h3>
+            </div>
           </li>
         </ul>
       </section>
 
       <!-- COVERS  ROW 2-->
-      <section class="container-covers">
+      <section class="row-covers">
         <h1>Creato per John Doe</h1>
         <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
-        <ul class="cover-list">
+        <ul>
           <li>
-            <img src="img/mixdaily.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
+            <img src="img/cure.jpeg" alt="cover-image">
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+            </div>
           </li>
           <li>
-            <img src="img/mixdaily.jpeg" alt="cover-image">
-            <h2>Heavy Metal</h2>
+            <img src="img/cure.jpeg" alt="cover-image">
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+            </div>
           </li>
         </ul>
       </section>
 
       <!-- COVERS  ROW 3-->
-      <section class="container-covers">
+      <section class="row-covers popular">
         <h1>Artisti più popolari</h1>
         <h3>Più ascolti, più accurati saranno i suggerimenti.</h3>
-        <ul class="cover-list">
+        <ul>
           <li>
-            <img src="img/einaudi.jpeg" alt="cover-image">
-            <h2>Ludovico Einaudi</h2>
+            <img src="img/cure.jpeg" alt="cover-image">
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+            </div>
           </li>
           <li>
-            <img src="img/einaudi.jpeg" alt="cover-image">
-            <h2>Ludovico Einaudi</h2>
+            <img src="img/cure.jpeg" alt="cover-image">
+            <div class="text-cover">
+              <h2>Heavy Metal</h2>
+            </div>
           </li>
         </ul>
       </section>
@@ -132,34 +158,45 @@
   </div>
 
   <!-- PLAYER -->
-  <div class="container-play">
-    <div class="container-play-nav-sx">
-      <div class="play-nav-sx">
-        <p>Sinister</p>
+  <footer class="container-play-bottom container-flex align-items-center">
+    <div class="container-flex">
+      <div class="play-cover container-flex">
+        <img src="/img/sinister.jpeg" alt="">
+      </div>
+      <div class="play-text">
+        <h2>Sinister</h2>
+        <h4>Brano Nome</h4>
+      </div>
+      <div class="play-favicon container-flex align-items-center gap-1-rem">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-folder"></i>
       </div>
     </div>
+
     <div class="container-play-nav-center">
-      <div class="play-nav-center">
-        <div class="play-nav-top">
+      <div>
+        <div class="container-flex justify-cont-center gap-1-rem padding-05-rem">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
           <i class="fa-regular fa-circle-play"></i>
-          <i class="fa-regular fa-circle-play"></i>
-          <i class="fa-regular fa-circle-play"></i>
-          <i class="fa-regular fa-circle-play"></i>
-          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-arrow-rotate-right"></i>
         </div>
-        <div class="play-nav-bottom">
-          <p>0.25------------4.35</p>
+        <div class="container-flex align-items-center padding-05-rem gap-1-rem">
+          <span>0:25 </span>
+          <hr class="time-line">
+          <span>4.35</span>
         </div>
       </div>
     </div>
-    <div class="container-play-nav-dx">
-      <div class="play-nav-dx">
-        <i class="fa-solid fa-desktop"></i>
-        <i class="fa-solid fa-desktop"></i>
-        <i class="fa-solid fa-desktop"></i>
-      </div>
+
+    <div class="container-flex gap-1-rem container-flex align-items-center">
+      <i class="fa-solid fa-bars"></i> 
+      <i class="fa-solid fa-desktop"></i>
+      <i class="fa-solid fa-volume-high"></i>
+      <hr class="time-line-mini">
     </div>
-  </div>
+  </footer>
 </body>
 
 </html>
