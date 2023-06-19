@@ -70,6 +70,10 @@ a {
   margin-left: -3px;
 }
 
+.navbar-menu li,
+.playlist{
+  font-size: .8rem;
+}
 
 .container-playlist li:hover {
   color: white;
@@ -100,8 +104,9 @@ a {
   padding: 15px 0 15px;
 }
 
-.container-playlist span {
+.container-playlist span:first-child {
   font-weight: 900;
+  color: white;
 }
 
 .navbar .navbar-menu span {
@@ -181,6 +186,10 @@ a {
   position: absolute;
   bottom: 20%;
   left: 25%;
+}
+
+.main-content-menu li:hover a {
+  color: white;
 }
 
 .row-covers {
