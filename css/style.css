@@ -237,7 +237,7 @@ footer {
 }
 
 .play-cover img {
-  width: 100%;
+  min-width: 50px;
   object-fit: cover;
 }
 
@@ -283,6 +283,14 @@ footer {
   .time-line-mini {
     max-width: 75px;
   }
+
+  .gap-05-rem-mediaq-large {
+    gap: .5rem;
+  }
+
+  .margin-03-rem-mediaq-large {
+    margin: .3rem;
+  }
 }
 
 /* medium */
@@ -294,6 +302,10 @@ footer {
   .play-favicon {
     flex-direction: column;
   }
+
+  .time-line {
+    max-width: 140px;
+}
 }
 
 /* small */
