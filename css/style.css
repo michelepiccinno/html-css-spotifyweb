@@ -247,7 +247,7 @@ footer {
 }
 
 .time-line-mini {
-  width: 170px;
+  width: 100px;
 }
 
 .play-cover,
@@ -328,6 +328,6 @@ footer {
   }
 
   .playlist-sx-bottom hr {
-    width: 25px;;
+    width: 25px;
   }
 }
