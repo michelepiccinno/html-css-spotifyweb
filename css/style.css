@@ -327,9 +327,6 @@ footer {
   transform: scale(2);
 }
 
-
-
-
 .sinister:hover {
   text-decoration: underline;
 }
@@ -338,8 +335,6 @@ footer {
   text-decoration: underline;
   color: white;
 }
-
-
 
 .time-line-mini {
   width: 100px;
