@@ -232,6 +232,15 @@ footer {
   justify-content: space-between;
 }
 
+.container-play-bottom h2 {
+  font-size: 16px;
+}
+
+.song-title {
+  display: flex;
+  gap: .3rem;
+}
+
 .play-cover {
   max-width: 50px;
 }
@@ -329,5 +338,9 @@ footer {
 
   .playlist-sx-bottom hr {
     width: 25px;
+  }
+
+  .song-title {
+    flex-direction: column;
   }
 }
