@@ -274,7 +274,7 @@ footer {
 /* large */
 @media screen and (max-width: 1100px) {
   .row-covers ul li {
-    flex-basis: calc(100% / 4 - 10px);
+    flex-basis: calc(100% / 4 - 14px);
     margin-bottom: 40px;
   }
   .time-line {
