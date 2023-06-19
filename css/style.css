@@ -178,6 +178,29 @@ a {
   margin: 30px;
 }
 
+/*********APPARE PLAY CON HOVER IMG ***********/
+
+.container-img-covers {
+  position: relative;
+}
+
+.hover-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(3, 3);
+  z-index: -1;
+}
+
+.container-img-covers img:hover {
+  opacity: 0.5;
+}
+
+.container-img-covers img:hover + .hover-play {
+  z-index: 2;
+}
+/**************************************************/
+
 .text-cover {
   text-align: center;
 }
