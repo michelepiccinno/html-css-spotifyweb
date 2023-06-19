@@ -69,6 +69,18 @@ a {
   color: white;
 }
 
+.container-playlist li:hover {
+  color: white;
+}
+
+.container-playlist p:hover {
+  color: white;
+}
+
+.circle-arrow:hover {
+  color: white;
+} 
+
 .navbar .navbar-menu img,
 .container-playlist i,
 .playlist-sx-bottom img {
@@ -158,6 +170,10 @@ a {
   border-bottom: 5px solid #b3ff31;
 }
 
+.main-content-menu li:hover a{
+  color: white;
+}
+
 .row-covers {
   margin: 30px;
 }
@@ -210,6 +226,12 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.top-bar .btn:hover {
+  display: block;
+  transition: transform .3s;
+  transform: scale(1.1);
+}
+
 footer {
   background-color: #282828;
 }
@@ -255,6 +277,70 @@ footer {
   width: 100%;
 }
 
+.fa-shuffle:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-backward-step:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.cirplay:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-forward-step:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-arrow-rotate-right:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-heart:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-folder:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-bars:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-desktop:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+.fa-volume-high:hover {
+  transition: transform .2s;
+  transform: scale(2);
+}
+
+
+
+
+.sinister:hover {
+  text-decoration: underline;
+}
+
+.song-title:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+
 .time-line-mini {
   width: 100px;
 }
@@ -265,6 +351,10 @@ footer {
 .fa-desktop,
 .time-line-mini {
   margin: 1rem;
+}
+
+.txt-grey {
+  color: #808080;
 }
 
 .gap-1-rem {
@@ -278,6 +368,10 @@ footer {
 
 .padding-05-rem {
   padding: .5rem;
+}
+
+.color-white {
+  color: white;
 }
 
 /*********MEDIA QUERY**********/
