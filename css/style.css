@@ -215,6 +215,7 @@ margin: auto;
 
 .container-img-covers img:hover {
   opacity: 0.5;
+  transition: .3s;
 }
 
 .container-img-covers img:hover + .hover-play {
@@ -256,7 +257,8 @@ margin: auto;
   flex-basis: calc((100% / 6) - 10px);
 }
 
-.row-covers ul li img {
+.row-covers ul li img,
+.width-100 {
   width: 100%;
 }
 
@@ -322,6 +324,25 @@ footer {
 .container-play-nav-center {
   width: 100%;
   min-width: 120px;
+}
+
+.container-timeline {
+  position: relative;
+  padding: 10px;
+}
+
+.hr-progress {
+    background-color: green;
+    width: 20%;
+    padding: 1px;
+    position: absolute;
+    bottom: 9px;
+    border: 1px solid green;
+    display: none;
+}
+
+.container-timeline:hover .hr-progress {
+  display: inline-block;
 }
 
 .fa-shuffle:hover {
